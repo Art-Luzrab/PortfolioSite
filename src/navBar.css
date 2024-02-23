@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  justify-content: space-between;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+}
