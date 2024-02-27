@@ -1,5 +1,6 @@
 import "./App.css";
 import helpHarbor from "../images/helpHarbor.png";
+import linkedInLogo from "../images/linkedInLogo.png";
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
           {/* contact ------------------------------------------------------------------------------------- */}
           <div class="contactSection">
             <h3>Contact</h3>
+            <a href="https://linkedin.com/in/arthurbarzul">
+              <img class="LI" src={linkedInLogo} alt="LinkedIn Logo" />
+            </a>
           </div>
 
           {/* contact ------------------------------------------------------------------------------------- */}
