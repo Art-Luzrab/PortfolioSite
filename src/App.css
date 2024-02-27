@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,7 +28,6 @@ body {
 
 #meDescription {
   font-size: 11px;
-  margin
 }
 /* everything about me ----------------------------------------------------------------------------------------- */
 

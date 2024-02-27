@@ -20,14 +20,17 @@ function App() {
 
             <div class="aboutDesc">
               <h3>About Me</h3>
-              <p id="meDescription">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p>
+                Hello! My name is Arthur Barzul and welcome to my portfolio
+                page! I graduated Full Stack Academy in December 21st, 2023. I
+                am currently working hard to enhance my skills as a developer by
+                creating projects, mini-games and professional websites for
+                businesses.
+              </p>
+              <p>
+                If you need more info, a website made or any question in
+                general, contact me on any of the options on the contact section
+                of my site!
               </p>
             </div>
           </div>
