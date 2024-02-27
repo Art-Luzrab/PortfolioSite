@@ -14,10 +14,23 @@ body {
   flex-direction: row;
 }
 
+.aboutMe p {
+  font-size: 11px;
+  font-family: system-ui;
+
+  margin: 10px;
+}
+
 .aboutDesc {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.aboutDesc h3 {
+  font-family: "Courier New", Courier, monospace;
 }
 
 .imageSpot {
