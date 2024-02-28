@@ -2,6 +2,7 @@ import "./App.css";
 import helpHarbor from "../images/helpHarbor.png";
 import linkedInLogo from "../images/linkedInLogo.png";
 import guessingGame from "../images/guessingGame.png";
+import email from "../images/email.png";
 
 function App() {
   return (
@@ -65,11 +66,17 @@ function App() {
           {/* contact ------------------------------------------------------------------------------------- */}
           <div class="contactSection">
             <h3>Contact</h3>
-            <a href="https://linkedin.com/in/arthurbarzul">
-              <img class="LI" src={linkedInLogo} alt="LinkedIn Logo" />
-            </a>
-          </div>
 
+            <div class="contactLogos">
+              <a href="https://linkedin.com/in/arthurbarzul">
+                <img class="LI" src={linkedInLogo} alt="LinkedIn Logo" />
+              </a>
+
+              <a href="arthur91021@gmail.com">
+                <img class="emailLogo" src={email} alt="email logo" />
+              </a>
+            </div>
+          </div>
           {/* contact ------------------------------------------------------------------------------------- */}
         </body>
       </html>

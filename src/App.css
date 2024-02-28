@@ -122,4 +122,24 @@ a {
   border: solid;
   border-radius: 10px;
 }
+
+.emailLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.emailLogo:hover {
+  border: solid;
+  border-radius: 30px;
+}
+
+.contactLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactLogos a {
+  margin: 0 10px;
+}
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
