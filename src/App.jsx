@@ -44,6 +44,7 @@ function App() {
             <div class="logos">
               <a href="https://helpharbor.onrender.com">
                 <img class="hhl" src={helpHarbor} alt="helpharbor logo" />
+                <div class="hhlogotext">HelpHarbor</div>
               </a>
             </div>
           </div>
