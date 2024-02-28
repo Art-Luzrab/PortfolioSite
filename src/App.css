@@ -80,6 +80,12 @@ a {
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 .mgLogos {
   visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+.mgLogos:hover > a {
+  text-decoration: none;
 }
 .GG {
   width: 60px;
@@ -97,7 +103,9 @@ a {
 
 .mgLogos:hover {
   visibility: visible;
+  text-decoration: none;
 }
+
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .LI {

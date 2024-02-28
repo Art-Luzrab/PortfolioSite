@@ -56,7 +56,7 @@ function App() {
             <div class="mgLogos">
               <a href="https://artsguessinggame.netlify.app">
                 <img class="GG" src={guessingGame} alt="guessing game" />
-                <div class="ggText">Guessing Game</div>
+                <li class="ggText">Guessing Game</li>
               </a>
             </div>
           </div>
