@@ -1,6 +1,7 @@
 import "./App.css";
 import helpHarbor from "../images/helpHarbor.png";
 import linkedInLogo from "../images/linkedInLogo.png";
+import guessingGame from "../images/guessingGame.png";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
           {/* mini games ----------------------------------------------------------------------------- */}
           <div class="miniGamesSection">
             <h3>Mini-Games</h3>
+            <a href="https://artsguessinggame.netlify.app">
+              <img class="GG" src={guessingGame} alt="guessing game" />
+            </a>
           </div>
           {/* mini games ----------------------------------------------------------------------------- */}
 
