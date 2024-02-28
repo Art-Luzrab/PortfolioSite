@@ -52,6 +52,11 @@ a {
 
 .logos {
   visibility: hidden;
+  text-decoration: none;
+}
+
+.logos:hover > a {
+  text-decoration: none;
 }
 
 .hhl {
@@ -80,7 +85,7 @@ a {
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 .mgLogos {
   visibility: hidden;
-  text-decoration: none;
+
   list-style: none;
 }
 
