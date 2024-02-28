@@ -45,7 +45,7 @@ function App() {
             <div class="logos">
               <a href="https://helpharbor.onrender.com">
                 <img class="hhl" src={helpHarbor} alt="helpharbor logo" />
-                <div class="hhlogotext">HelpHarbor</div>
+                <div class="logoTexts">HelpHarbor</div>
               </a>
             </div>
           </div>
@@ -54,10 +54,10 @@ function App() {
           {/* mini games ----------------------------------------------------------------------------- */}
           <div class="miniGamesSection">
             <h3>Mini-Games</h3>
-            <div class="mgLogos">
+            <div class="logos">
               <a href="https://artsguessinggame.netlify.app">
                 <img class="GG" src={guessingGame} alt="guessing game" />
-                <li class="ggText">Guessing Game</li>
+                <li class="logoTexts">Guessing Game</li>
               </a>
             </div>
           </div>
@@ -70,10 +70,12 @@ function App() {
             <div class="contactLogos">
               <a href="https://linkedin.com/in/arthurbarzul">
                 <img class="LI" src={linkedInLogo} alt="LinkedIn Logo" />
+                <div class="logoTexts">LinkedIn</div>
               </a>
 
-              <a href="arthur91021@gmail.com">
+              <a href="mailto:arthur91021@gmail.com">
                 <img class="emailLogo" src={email} alt="email logo" />
+                <div class="logoTexts">Email</div>
               </a>
             </div>
           </div>

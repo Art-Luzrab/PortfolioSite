@@ -12,6 +12,12 @@ body {
 a {
   text-decoration: none;
 }
+
+.logoTexts {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9px;
+  color: black;
+}
 /* everything about me ----------------------------------------------------------------------------------------- */
 .aboutMe {
   display: flex;
@@ -53,6 +59,8 @@ a {
 .logos {
   visibility: hidden;
   text-decoration: none;
+  list-style: none;
+  transition: transform 0.3s ease;
 }
 
 .logos:hover > a {
@@ -63,6 +71,7 @@ a {
   width: 60px;
   height: 60px;
   visibility: visible;
+  transition: transform 0.3s ease;
 }
 
 .hhl:hover {
@@ -113,6 +122,12 @@ a {
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
+.contactLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
 .LI {
   width: 60px;
   height: 60px;
@@ -131,12 +146,6 @@ a {
 .emailLogo:hover {
   border: solid;
   border-radius: 30px;
-}
-
-.contactLogos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .contactLogos a {
