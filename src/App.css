@@ -78,13 +78,25 @@ a {
 /* project section ------------------------------------------------------------------------------------------------ */
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
-
+.mgLogos {
+  visibility: hidden;
+}
 .GG {
   width: 60px;
   height: 60px;
+  visibility: visible;
 }
 .GG:hover {
   border: solid rgb(0, 200, 0);
+}
+.ggText {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 9px;
+  color: black;
+}
+
+.mgLogos:hover {
+  visibility: visible;
 }
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 /* contact section ---------------------------------------------------------------------------------------------------------------- */

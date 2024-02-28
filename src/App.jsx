@@ -53,9 +53,12 @@ function App() {
           {/* mini games ----------------------------------------------------------------------------- */}
           <div class="miniGamesSection">
             <h3>Mini-Games</h3>
-            <a href="https://artsguessinggame.netlify.app">
-              <img class="GG" src={guessingGame} alt="guessing game" />
-            </a>
+            <div class="mgLogos">
+              <a href="https://artsguessinggame.netlify.app">
+                <img class="GG" src={guessingGame} alt="guessing game" />
+                <div class="ggText">Guessing Game</div>
+              </a>
+            </div>
           </div>
           {/* mini games ----------------------------------------------------------------------------- */}
 
