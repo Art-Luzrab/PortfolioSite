@@ -3,6 +3,7 @@ import helpHarbor from "../images/helpHarbor.png";
 import linkedInLogo from "../images/linkedInLogo.png";
 import guessingGame from "../images/guessingGame.png";
 import email from "../images/email.png";
+import dice6 from "../images/dice6.png";
 
 function App() {
   return (
@@ -56,8 +57,12 @@ function App() {
             <h3>Mini-Games</h3>
             <div class="logos">
               <a href="https://artsguessinggame.netlify.app">
-                <img class="GG" src={guessingGame} alt="guessing game" />
+                <img class="logoPics" src={guessingGame} alt="guessing game" />
                 <li class="logoTexts">Guessing Game</li>
+              </a>
+              <a href="https://arthurspiggame.netlify.app">
+                <img class="logoPics" id="dice6" src={dice6} alt="dice" />
+                <li class="logoTexts">Pig Game</li>
               </a>
             </div>
           </div>

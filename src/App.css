@@ -12,12 +12,41 @@ body {
 a {
   text-decoration: none;
 }
-
+/* -----------logo styling ----------------------------------- */
 .logoTexts {
   font-family: "Courier New", Courier, monospace;
   font-size: 9px;
   color: black;
 }
+
+/* -----------logo styling ----------------------------------- */
+.logos {
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logos:hover > a {
+  text-decoration: none;
+}
+
+.logos:hover {
+  transform: scale(1.1);
+  visibility: visible;
+}
+
+.logoPics {
+  width: 60px;
+  height: 60px;
+  visibility: visible;
+}
+.logoPics:hover {
+  border: solid rgb(0, 200, 0);
+}
+
 /* everything about me ----------------------------------------------------------------------------------------- */
 .aboutMe {
   display: flex;
@@ -56,17 +85,6 @@ a {
 
 /* project section ------------------------------------------------------------------------------------------------ */
 
-.logos {
-  visibility: hidden;
-  text-decoration: none;
-  list-style: none;
-  transition: transform 0.3s ease;
-}
-
-.logos:hover > a {
-  text-decoration: none;
-}
-
 .hhl {
   width: 60px;
   height: 60px;
@@ -78,49 +96,14 @@ a {
   border: solid;
 }
 
-.hhlogotext {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 9px;
-  color: black;
-}
-
-.logos:hover {
-  transform: scale(1.1);
-  visibility: visible;
-}
-
 /* project section ------------------------------------------------------------------------------------------------ */
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
-.mgLogos {
-  visibility: hidden;
-
-  list-style: none;
+#dice6:hover {
+  border: solid rgb(247, 147, 164);
 }
-
-.mgLogos:hover > a {
-  text-decoration: none;
-}
-.GG {
-  width: 60px;
-  height: 60px;
-  visibility: visible;
-}
-.GG:hover {
-  border: solid rgb(0, 200, 0);
-}
-.ggText {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 9px;
-  color: black;
-}
-
-.mgLogos:hover {
-  visibility: visible;
-  text-decoration: none;
-}
-
 /* minigames section ----------------------------------------------------------------------------------------------------- */
+
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .contactLogos {
   display: flex;
