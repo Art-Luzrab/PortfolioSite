@@ -4,6 +4,7 @@ import linkedInLogo from "../images/linkedInLogo.png";
 import guessingGame from "../images/guessingGame.png";
 import email from "../images/email.png";
 import dice6 from "../images/dice6.png";
+import arcade from "../images/arcade.gif";
 
 function App() {
   return (
@@ -55,15 +56,22 @@ function App() {
           {/* mini games ----------------------------------------------------------------------------- */}
           <div class="miniGamesSection">
             <h3>Mini-Games</h3>
-            <div class="logos">
-              <a href="https://artsguessinggame.netlify.app">
-                <img class="logoPics" src={guessingGame} alt="guessing game" />
-                <li class="logoTexts">Guessing Game</li>
-              </a>
-              <a href="https://arthurspiggame.netlify.app">
-                <img class="logoPics" id="dice6" src={dice6} alt="dice" />
-                <li class="logoTexts">Pig Game</li>
-              </a>
+            <div class="sectionImage">
+              <img src={arcade} alt="arcadegif" />
+              <div class="logos">
+                <a href="https://artsguessinggame.netlify.app">
+                  <img
+                    class="logoPics"
+                    src={guessingGame}
+                    alt="guessing game"
+                  />
+                  <li class="logoTexts">Guessing Game</li>
+                </a>
+                <a href="https://arthurspiggame.netlify.app">
+                  <img class="logoPics" id="dice6" src={dice6} alt="dice" />
+                  <li class="logoTexts">Pig Game</li>
+                </a>
+              </div>
             </div>
           </div>
           {/* mini games ----------------------------------------------------------------------------- */}
