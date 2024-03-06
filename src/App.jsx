@@ -54,10 +54,11 @@ function App() {
           {/* projects ----------------------------------------------------------------------- */}
 
           {/* mini games ----------------------------------------------------------------------------- */}
-          <div class="miniGamesSection">
-            <h3>Mini-Games</h3>
-            <div class="sectionImage">
-              <img src={arcade} alt="arcadegif" />
+          <div class="mgContainer">
+            <img class="sectionImage" src={arcade} alt="arcadegif" />
+            <div class="miniGamesSection">
+              <h3>Mini-Games</h3>
+
               <div class="logos">
                 <a href="https://artsguessinggame.netlify.app">
                   <img

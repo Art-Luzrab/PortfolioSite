@@ -49,6 +49,10 @@ a {
 
 /* ----------------section image styling ---------------------- */
 
+.sectionImage {
+  height: 120px;
+  width: 120px;
+}
 /* ----------------section image styling ---------------------- */
 
 /* everything about me ----------------------------------------------------------------------------------------- */
@@ -107,14 +111,23 @@ a {
   border: solid rgb(247, 147, 164);
 }
 /* minigames section ----------------------------------------------------------------------------------------------------- */
+.mgContainer {
+  display: flex;
+  flex-direction: row;
+}
 .miniGamesSection {
   width: 100%;
-  height: 200px;
+  height: auto;
   position: relative;
 
-  background-image: url("../images/galaxy.gif");
+  background-image: url("../images/8bitstars.gif");
   background-size: cover;
   background-position: center;
+}
+
+.miniGamesSection > h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(229, 61, 89);
 }
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .contactLogos {
