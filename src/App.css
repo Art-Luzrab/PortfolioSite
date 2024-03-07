@@ -109,11 +109,11 @@ a {
 /* project section ------------------------------------------------------------------------------------------------ */
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
+
 .guessingGameLogo #guessingGame {
   visibility: hidden;
   text-decoration: none;
   list-style: none;
-  transition: transform 0.3s ease;
 }
 
 .guessingGameLogo:hover #guessingGame {
@@ -125,17 +125,15 @@ a {
   text-decoration: none;
 }
 
-.guessingGameLogo img:hover {
+#question:hover {
   border: solid rgb(0, 200, 0);
+  transition: transform 0.3s ease;
 }
 
 #dice6:hover {
   border: solid rgb(247, 147, 164);
 }
 
-/* #question:hover {
-  border: solid rgb(0, 200, 0);
-} */
 .mgContainer {
   display: flex;
   flex-direction: row;
