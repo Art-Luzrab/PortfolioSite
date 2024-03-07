@@ -42,16 +42,28 @@ function App() {
           {/* about me ------------------------------------------------------------ */}
 
           {/* projects ----------------------------------------------------------------------- */}
-          <div class="projectSection">
-            <h3>Projects</h3>
-            <div class="logos">
-              <a href="https://helpharbor.onrender.com">
-                <div class="pin">📍</div>
-                <img class="hhl" src={helpHarbor} alt="helpharbor logo" />
-                <div class="logoTexts">HelpHarbor</div>
-              </a>
+          <div class="projectContainer">
+            <div class="projectSection">
+              <h3>Projects</h3>
+
+              <div class="allProjects">
+                <div class="helpharborLogo">
+                  <a href="https://helpharbor.onrender.com">
+                    <img
+                      class="logoPics"
+                      id="hhimg"
+                      src={helpHarbor}
+                      alt="helpharborlogo"
+                    />
+                    <li class="logoTexts" id="hht">
+                      HelpHarbor
+                    </li>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
+
           {/* projects ----------------------------------------------------------------------- */}
 
           {/* mini games ----------------------------------------------------------------------------- */}
@@ -61,7 +73,7 @@ function App() {
               <h3>Mini-Games</h3>
 
               <div class="allMiniGames">
-                <div class="guessingGameLogo logohide">
+                <div class="guessingGameLogo">
                   <a href="https://artsguessinggame.netlify.app">
                     <img
                       class="logoPics"

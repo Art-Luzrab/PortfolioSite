@@ -86,23 +86,37 @@ a {
 /* everything about me ----------------------------------------------------------------------------------------- */
 
 /* project section ------------------------------------------------------------------------------------------------ */
-.pin {
+/* .pin {
   position: relative;
   top: 10px;
+} */
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
 }
+
 .projectSection {
+  width: 100%;
+  height: auto;
+  position: relative;
   border: solid;
-  margin-bottom: 20px;
 }
 
-.hhl {
-  width: 60px;
-  height: 60px;
+.helpharborLogo #hht {
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.helpharborLogo:hover #hht {
+  transform: scale(1.1);
   visibility: visible;
-  transition: transform 0.3s ease;
 }
 
-.hhl:hover {
+#hht {
   border: solid;
 }
 
@@ -165,6 +179,7 @@ a {
   visibility: hidden;
   text-decoration: none;
   list-style: none;
+  /* border: solid white; */
 }
 
 .guessingGameLogo:hover #guessingGame {
