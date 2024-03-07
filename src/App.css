@@ -12,6 +12,11 @@ body {
 a {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: "8bit";
+  src: url("./Quinquefive-ALoRM.ttf");
+}
 /* -----------logo styling ----------------------------------- */
 .logoTexts {
   font-family: "Courier New", Courier, monospace;
@@ -126,8 +131,9 @@ a {
 }
 
 .miniGamesSection > h3 {
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(229, 61, 89);
+  font-family: "8bit";
+  color: rgb(253, 65, 96);
+  font-size: medium;
 }
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .contactLogos {
