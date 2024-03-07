@@ -60,7 +60,7 @@ function App() {
               <h3>Mini-Games</h3>
 
               <div class="logos">
-                <div class="guessingGameLogo">
+                <div class="guessingGameLogo logohide">
                   <a href="https://artsguessinggame.netlify.app">
                     <img
                       class="logoPics"
@@ -73,12 +73,14 @@ function App() {
                     </li>
                   </a>
                 </div>
-                <a href="https://arthurspiggame.netlify.app">
-                  <img class="logoPics" id="dice6" src={dice6} alt="dice" />
-                  <li class="logoTexts" id="pigGame">
-                    Pig Game
-                  </li>
-                </a>
+                <div class="pigGameLogo">
+                  <a href="https://arthurspiggame.netlify.app">
+                    <img class="logoPics" id="dice6" src={dice6} alt="dice" />
+                    <li class="logoTexts" id="pigGame">
+                      Pig Game
+                    </li>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

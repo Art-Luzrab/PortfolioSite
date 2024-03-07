@@ -110,6 +110,29 @@ a {
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 
+/* [Pig Game] vvv*/
+.pigGameLogo #pigGame {
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pigGameLogo:hover #pigGame {
+  transform: scale(1.1);
+  visibility: visible;
+}
+#pigGame {
+  font-family: "8bit";
+  color: rgb(253, 65, 96);
+  font-size: 6px;
+}
+#dice6:hover {
+  border: solid rgb(247, 147, 164);
+}
+
+/* [Pig Game] ^^^*/
+
+/* [Guessing Game] vvv */
 .guessingGameLogo #guessingGame {
   visibility: hidden;
   text-decoration: none;
@@ -124,15 +147,17 @@ a {
 .guessingGameLogo:hover > a {
   text-decoration: none;
 }
+#guessingGame {
+  font-family: "8bit";
+  color: rgb(0, 200, 0);
+  font-size: 6px;
+}
 
 #question:hover {
   border: solid rgb(0, 200, 0);
   transition: transform 0.3s ease;
 }
-
-#dice6:hover {
-  border: solid rgb(247, 147, 164);
-}
+/* [Guessing Game] ^^^ */
 
 .mgContainer {
   display: flex;
@@ -156,17 +181,6 @@ a {
   margin-top: 10px;
 }
 
-#pigGame {
-  font-family: "8bit";
-  color: rgb(253, 65, 96);
-  font-size: 6px;
-}
-
-#guessingGame {
-  font-family: "8bit";
-  color: rgb(0, 200, 0);
-  font-size: 6px;
-}
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
