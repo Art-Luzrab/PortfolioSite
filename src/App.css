@@ -33,20 +33,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 10px;
 }
-/* .logos:hover > a {
-  text-decoration: none;
-} */
-
-/* .logos:hover {
-  transform: scale(1.1);
-  visibility: visible;
-} */
 
 .logoPics {
   width: 60px;
   height: 60px;
-  /* visibility: visible; */
 }
 
 /* ----------------section image styling ---------------------- */
@@ -177,7 +169,7 @@ a {
   font-family: "8bit";
   color: rgb(253, 65, 96);
   font-size: medium;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 10px;
 }
 
