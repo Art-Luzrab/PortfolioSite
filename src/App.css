@@ -26,30 +26,27 @@ a {
 
 /* -----------logo styling ----------------------------------- */
 .logos {
-  visibility: hidden;
-  text-decoration: none;
-  list-style: none;
-  transition: transform 0.3s ease;
+  /* visibility: hidden; */
+  /* text-decoration: none;
+  list-style: none; */
+  /* transition: transform 0.3s ease; */
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.logos:hover > a {
+/* .logos:hover > a {
   text-decoration: none;
-}
+} */
 
-.logos:hover {
+/* .logos:hover {
   transform: scale(1.1);
   visibility: visible;
-}
+} */
 
 .logoPics {
   width: 60px;
   height: 60px;
-  visibility: visible;
-}
-.logoPics:hover {
-  border: solid rgb(0, 200, 0);
+  /* visibility: visible; */
 }
 
 /* ----------------section image styling ---------------------- */
@@ -112,10 +109,33 @@ a {
 /* project section ------------------------------------------------------------------------------------------------ */
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
+.guessingGameLogo #guessingGame {
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+  transition: transform 0.3s ease;
+}
+
+.guessingGameLogo:hover #guessingGame {
+  transform: scale(1.1);
+  visibility: visible;
+}
+
+.guessingGameLogo:hover > a {
+  text-decoration: none;
+}
+
+.guessingGameLogo img:hover {
+  border: solid rgb(0, 200, 0);
+}
+
 #dice6:hover {
   border: solid rgb(247, 147, 164);
 }
-/* minigames section ----------------------------------------------------------------------------------------------------- */
+
+/* #question:hover {
+  border: solid rgb(0, 200, 0);
+} */
 .mgContainer {
   display: flex;
   flex-direction: row;
@@ -149,6 +169,8 @@ a {
   color: rgb(0, 200, 0);
   font-size: 6px;
 }
+/* minigames section ----------------------------------------------------------------------------------------------------- */
+
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .contactLogos {
   display: flex;
