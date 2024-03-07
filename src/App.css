@@ -55,7 +55,7 @@ a {
 /* ----------------section image styling ---------------------- */
 
 .sectionImage {
-  height: 120px;
+  height: auto;
   width: 120px;
 }
 /* ----------------section image styling ---------------------- */
@@ -134,6 +134,20 @@ a {
   font-family: "8bit";
   color: rgb(253, 65, 96);
   font-size: medium;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#pigGame {
+  font-family: "8bit";
+  color: rgb(253, 65, 96);
+  font-size: 6px;
+}
+
+#guessingGame {
+  font-family: "8bit";
+  color: rgb(0, 200, 0);
+  font-size: 6px;
 }
 /* contact section ---------------------------------------------------------------------------------------------------------------- */
 .contactLogos {

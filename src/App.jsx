@@ -66,11 +66,15 @@ function App() {
                     src={guessingGame}
                     alt="guessing game"
                   />
-                  <li class="logoTexts">Guessing Game</li>
+                  <li class="logoTexts" id="guessingGame">
+                    Guessing Game
+                  </li>
                 </a>
                 <a href="https://arthurspiggame.netlify.app">
                   <img class="logoPics" id="dice6" src={dice6} alt="dice" />
-                  <li class="logoTexts">Pig Game</li>
+                  <li class="logoTexts" id="pigGame">
+                    Pig Game
+                  </li>
                 </a>
               </div>
             </div>
