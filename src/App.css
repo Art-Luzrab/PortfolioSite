@@ -26,10 +26,10 @@ a {
 
 /* -----------logo styling ----------------------------------- */
 .logos {
-  /* visibility: hidden; */
-  /* text-decoration: none;
-  list-style: none; */
-  /* transition: transform 0.3s ease; */
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+  transition: transform 0.3s ease;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -86,6 +86,14 @@ a {
 /* everything about me ----------------------------------------------------------------------------------------- */
 
 /* project section ------------------------------------------------------------------------------------------------ */
+.pin {
+  position: relative;
+  top: 10px;
+}
+.projectSection {
+  border: solid;
+  margin-bottom: 20px;
+}
 
 .hhl {
   width: 60px;
@@ -101,6 +109,34 @@ a {
 /* project section ------------------------------------------------------------------------------------------------ */
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
+.mgContainer {
+  display: flex;
+  flex-direction: row;
+}
+.miniGamesSection {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  background-image: url("../images/8bitstars.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.miniGamesSection > h3 {
+  font-family: "8bit";
+  color: rgb(253, 65, 96);
+  font-size: medium;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.allMiniGames {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 
 /* [Pig Game] vvv*/
 .pigGameLogo #pigGame {
@@ -150,28 +186,6 @@ a {
   transition: transform 0.3s ease;
 }
 /* [Guessing Game] ^^^ */
-
-.mgContainer {
-  display: flex;
-  flex-direction: row;
-}
-.miniGamesSection {
-  width: 100%;
-  height: auto;
-  position: relative;
-
-  background-image: url("../images/8bitstars.gif");
-  background-size: cover;
-  background-position: center;
-}
-
-.miniGamesSection > h3 {
-  font-family: "8bit";
-  color: rgb(253, 65, 96);
-  font-size: medium;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
 
 /* minigames section ----------------------------------------------------------------------------------------------------- */
 

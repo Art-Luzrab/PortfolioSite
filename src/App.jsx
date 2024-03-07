@@ -46,6 +46,7 @@ function App() {
             <h3>Projects</h3>
             <div class="logos">
               <a href="https://helpharbor.onrender.com">
+                <div class="pin">📍</div>
                 <img class="hhl" src={helpHarbor} alt="helpharbor logo" />
                 <div class="logoTexts">HelpHarbor</div>
               </a>
@@ -59,7 +60,7 @@ function App() {
             <div class="miniGamesSection">
               <h3>Mini-Games</h3>
 
-              <div class="logos">
+              <div class="allMiniGames">
                 <div class="guessingGameLogo logohide">
                   <a href="https://artsguessinggame.netlify.app">
                     <img
