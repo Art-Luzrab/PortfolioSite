@@ -103,6 +103,13 @@ a {
   border: solid;
 }
 
+.allProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
 .helpharborLogo #hht {
   visibility: hidden;
   text-decoration: none;
@@ -110,6 +117,10 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+/* .helpharborLogo a {
+  display: inline-block;
+} */
 
 .helpharborLogo:hover #hht {
   transform: scale(1.1);
