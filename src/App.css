@@ -118,9 +118,11 @@ a {
   flex-direction: column;
 }
 
-/* .helpharborLogo a {
-  display: inline-block;
-} */
+#hhimg:hover{
+  border: solid green;
+  transition: transform 0.3s ease;
+
+}
 
 .helpharborLogo:hover #hht {
   transform: scale(1.1);
