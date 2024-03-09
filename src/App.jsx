@@ -48,6 +48,7 @@ function App() {
 
               <div class="allProjects">
                 <div class="helpharborLogo">
+                  <div class='pin'>📍</div>
                   <a href="https://helpharbor.onrender.com">
                     <img
                       class="logoPics"

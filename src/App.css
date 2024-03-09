@@ -110,6 +110,11 @@ a {
   margin-bottom: 10px;
 }
 
+.pin {
+  position: relative;
+  top: 12px;
+}
+
 .helpharborLogo #hht {
   visibility: hidden;
   text-decoration: none;
